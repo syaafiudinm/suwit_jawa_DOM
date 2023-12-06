@@ -10,9 +10,13 @@ h1{
     color: rgb(91, 91, 91);
 }
 
+h2{
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
 .box-game{
     height: 300px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +28,7 @@ h1{
     height: 150px;
     width: 300px;
     border-radius: 4% 4% 0 0 ;
+    border: solid;
 }
 
 .boxBot img{
@@ -39,8 +44,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px
-    ;
+    gap: 20px;
+    border: solid;
 }
 
 .container{
@@ -60,6 +65,40 @@ h1{
     color: salmon;
     font-weight: bold;
 }
+
+.keterangan{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box-keterangan{
+    height: 410px;
+    width: 200px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    border: solid;
+}
+
+.box-keterangan li{
+    list-style: none;
+}
+
+.box-keterangan ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+}
+
+
 
 .gajah, .orang, .semut {
     transition: .3s;
